@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
 
       <h1>Welcome to the App</h1>
-      <button className="bg-yellow-500 p-5 ml-3 rounded-lg mt-2 font-bold" onClick={logout}>Logout</button>
+      <button className="bg-yellow-500 p-5 ml-3 rounded-lg mt-2 font-bold animate-pulse" onClick={logout}>Logout</button>
     </div>
   )
 }
