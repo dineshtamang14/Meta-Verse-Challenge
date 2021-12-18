@@ -4,7 +4,7 @@ import { useRef } from "react";
 import Message from "./Message";
 
 // only to show message from last 60min
-const MINS_DURATION = 60;   
+const MINS_DURATION = 525601;   
 
 function Messages() {
     const { user } = useMoralis();
